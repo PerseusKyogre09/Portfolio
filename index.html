@@ -3,89 +3,117 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Portfolio Title</title>
+    <title>Portfolio</title>
     <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <div id="main">
         <div id="y1">
-            <h1 id="b">My Portfolio</h1>
-            <nav>
-                <a id="about" class="nav" href="#about-section">About</a>
-                <a id="skills" class="nav" href="#skills-section">Skills</a>
-                <a id="partners" class="nav" href="#partners-section">Partners</a>
-                <a id="goals" class="nav" href="#goals-section">Goals</a>
-            </nav>
+            <div class="nav" id="about"><a href="goals.html" target="_main" style="text-decoration: none;color:inherit">ABOUT</a></div>
+            <div class="nav" id="skills"><a href="contact.html" target="_main" style="text-decoration: none;color:inherit">SKILLS</a></div>
+            <div class="nav" id="partners"><a href="about.html" target="_main" style="text-decoration: none;color:inherit">PARTNERS</a></div>
+            <div class="nav" id="goals"><a href="partners.html" target="_main" style="text-decoration: none;color:inherit">GOALS</a></div>
             <div id="icons">
-                <a id="insta" href="https://instagram.com/yourprofile" target="_blank">Instagram</a>
-                <a id="github" href="https://github.com/yourprofile" target="_blank">GitHub</a>
-                <a id="linkedin" href="https://linkedin.com/in/yourprofile" target="_blank">LinkedIn</a>
+                <a target="_main" href="apni lagao"> <i id="insta" class="fa-brands fa-instagram fa-lg"></i></a>
+                <a target="_main" href="apni lagao"> <i id="github" class="fa-brands fa-github fa-lg"></i></a>
+                <a target="_main" href="apni lagao"> <i id="linkedin" class="fa-brands fa-linkedin fa-lg"></i></a>
             </div>
+        </div>
+    
+        <div id="b">
+            <pre id="one"><h2>Hi,Namaste ,I'm</h2><h1>Pradeepto</h1><h2>Programmer, Backend</h2></pre>
+            <pre id="two">I am passionate about coding, singing, reading books and novels. <br>Curious by nature, shy and reserved.
+            </pre><br><br><br>
+                <a href="about.html" target="_main"><button id="b-button">Reach out to me</button></a>
         </div>
         <div id="y2">
-            <h2>Welcome to My Portfolio</h2>
             <div class="marquee-div">
-                <div class="marquee">Check out my latest projects!</div>
-            </div>
-
-            <div id="about-section" class="project-container">
-                <h2>About Me</h2>
-                <p>Hello! I am a passionate developer with skills in various programming languages and technologies. I love creating web applications and working on interesting projects.</p>
-            </div>
-
-            <div id="skills-section" class="project-container">
-                <h2>Skills</h2>
-                <ul>
-                    <li>HTML, CSS, JavaScript</li>
-                    <li>Python, C, Java</li>
-                    <li>Flask, Django</li>
-                    <li>Machine Learning</li>
-                    <li>Data Analysis</li>
-                </ul>
-            </div>
-
-            <div id="partners-section" class="project-container">
-                <h2>Partners</h2>
-                <p>Some organizations and individuals I collaborate with:</p>
-                <ul>
-                    <li>Organization A</li>
-                    <li>Organization B</li>
-                    <li>Individual C</li>
-                </ul>
-            </div>
-
-            <div id="goals-section" class="project-container">
-                <h2>Goals</h2>
-                <p>My goals for the future include:</p>
-                <ul>
-                    <li>Building innovative software solutions.</li>
-                    <li>Contributing to open-source projects.</li>
-                    <li>Expanding my knowledge in AI and ML.</li>
-                </ul>
-            </div>
-
-            <div class="project-container">
-                <h2>Projects</h2>
-                <div class="project-card">
-                    <img src="path/to/your/project-image1.jpg" alt="Project 1">
+              <div class="project-container">
+                <div class="marquee">
+                  <div class="project-card">
+                    <img src="images/tic-tac-toe.png" alt="Project 2">
                     <div class="project-card-content">
-                        <h3>Project Title 1</h3>
-                        <p>Short description of your project.</p>
+                      Tic Tac Toe!
                     </div>
-                </div>
-                <div class="project-card">
-                    <img src="path/to/your/project-image2.jpg" alt="Project 2">
+                  </div>
+                  <div class="project-card">
+                    <img src="images/portfolio.png" alt="Project 1">
                     <div class="project-card-content">
-                        <h3>Project Title 2</h3>
-                        <p>Short description of your project.</p>
+                      Personal Portfolio
                     </div>
+                  </div>
+                  <div class="project-card">
+                    <img src="images/sign-in.png" alt="Project 3">
+                    <div class="project-card-content">
+                      SignIn Page
+                    </div>
+                  </div>
                 </div>
-                <!-- Add more project cards as needed -->
+              </div>
             </div>
-
-            <button id="y2-button">Contact Me</button>
+            <a href="work.html" target="_main"><button href="contact.html" id="y2-button">See my Projects</button></a>
+          </div>
+    </div>
+</body>
+</html><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div id="main">
+        <div id="y1">
+            <div class="nav" id="about"><a href="contact.html" target="_main" style="text-decoration: none;color:inherit">ABOUT</a></div>
+            <div class="nav" id="skills"><a href="partners.html" target="_main" style="text-decoration: none;color:inherit">SKILLS</a></div>
+            <div class="nav" id="partners"><a href="goals.html" target="_main" style="text-decoration: none;color:inherit">PARTNERS</a></div>
+            <div class="nav" id="goals"><a href="skills.html" target="_main" style="text-decoration: none;color:inherit">GOALS</a></div>
+            <div id="icons">
+                <a target="_main" href="https://www.instagram.com/pradeepto.pal/"> <i id="pradeepto.pal" class="fa-brands fa-instagram fa-lg"></i></a>
+                <a target="_main" href="https://github.com/PerseusKyogre09"> <i id="github" class="fa-brands fa-github fa-lg"></i></a>
+                <a target="_main" href="https://www.linkedin.com/in/pradeepto-pal-64083629b/"> <i id="linkedin" class="fa-brands fa-linkedin fa-lg"></i></a>
+            </div>
         </div>
+    
+        <div id="b">
+            <pre id="one"><h2>Hello Ji,I'm</h2><h1>aBc</h1><h2>Copy Coder Designer</h2></pre>
+            <pre id="two">I am passionate about Mindless Scrolling 
+through human-centered design.
+Curious by Insta and 
+khud hi batao-minded.</pre><br><br><br>
+                <a href="goals.html" target="_main"><button id="b-button">Reach out to me</button></a>
+        </div>
+        <div id="y2">
+            <div class="marquee-div">
+              <div class="project-container">
+                <div class="marquee">
+                  <div class="project-card">
+                    <img src="kripya apni banae.png" alt="Project 2">
+                    <div class="project-card-content">
+                      Tic Tac Toe!
+                    </div>
+                  </div>
+                  <div class="project-card">
+                    <img src="kripya apni banae.png" alt="Project 1">
+                    <div class="project-card-content">
+                      Personal Portfolio
+                    </div>
+                  </div>
+                  <div class="project-card">
+                    <img src="kripya apni banae.png" alt="Project 3">
+                    <div class="project-card-content">
+                      SignIn Page
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <a href="goal.html" target="_main"><button href="work.html" id="y2-button">See my Projects</button></a>
+          </div>
     </div>
 </body>
 </html>
