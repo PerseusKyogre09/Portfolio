@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Page Not Found - My Portfolio</title>
+    <link rel="stylesheet" href="404.css" />
+</head>
+<body>
+    <header>
+        <h1>404 Error</h1>
+        <p id="errorMessage">The page you're looking for cannot be found.</p>
+    </header>
+    <div class="content-container">
+        <img id="errorImage" src="" alt="Error Image" />
+        <a href="index.html">
+            <button class="home-button">Return to Home</button>
+        </a>
+    </div>
+
+    <script>
+        const messages = [
+            { text: "Autobots, fall back! This page is missing!", img: "transformers.jpeg" },
+            { text: "It’s hero time, but not here. This page is gone!", img: "ben10.png" },
+            { text: "I could do this all day... looking for a page that doesn’t exist!", img: "avengers.png" },
+            { text: "These aren’t the pages you’re looking for.", img: "starwars.png" },
+            { text: "Even magic couldn't find this page!", img: "harrypotter.jpg" }
+        ];
+
+        const selectedMessage = messages[Math.floor(Math.random() * messages.length)];
+        document.getElementById("errorMessage").textContent = selectedMessage.text;
+        document.getElementById("errorImage").src = `images/${selectedMessage.img}`;
+        document.getElementById("errorImage").alt = selectedMessage.text;
+    </script>
+</body>
+</html>
